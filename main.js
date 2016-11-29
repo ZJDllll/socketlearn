@@ -3,7 +3,7 @@
  */
 var fs=require("fs");
 var events=require('events');
-var s=require('express');
+
 var eventEmitter =new events.EventEmitter();
 
 fs.readFile('input.txt',function(err,data){
